@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel = "stylesheet" type="text/css" href="style.css">
+   
+
+    <title>Document</title>
+</head>
+<body>
+    <div class = "container">
+        <div class = "image">
+
+        </div>
+        <div class="form-container">
+            <div class="product-form">
+                
+                <a href="#">Product</a>
+                <a href="#">Billing</a>
+                <a href="#">Card</a>
+               
+            
+
+            </div>
+ 
+            <div id="Billing-form">
+              <span>  <p style="font-size: 2em; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;" >Personal Information</p>
+              </span>
+              <span>Total : <span style="font-size: 30px;  font-weight: bold;">$186.76</span></span><br>
+              
+               
+                    <label for="fname" > First-Name </label>
+                    <input type="text" name="name" id="fname" placeholder="First-Name"><br><br>
+
+                    <label for="phone" > Phone </label>
+                    <input type="text" name="name" id="phone" placeholder="First-Name"><br><br>
+
+                    <label for="street" > Street </label>
+                    <input type="text" name="street" id="street" placeholder="First-Name"><br><br>
+
+                    <label for="state" > State </label>
+                    <select name="study" id="value">
+                    <option value="1">1<sup>st</sup></option>
+                    <option value="2">2<sub>nd</sub></sup></option>
+                    <option value="3">3rd</option>
+                    <option value="4">4th</option>
+                    </select> <br><br>
+
+                    <label for="email" > Email Id </label>
+                    <input type="email" name="email" id="name" placeholder="xyz@gmail.com"><br><br>
+                
+                    <button class="button-rt">CANCEL</button>
+                    <button class="button-crt  btn1">PROCEED</button>
+                    
+                
+        
+
+                
+            </div>
+            <div id="card-form">
+                <span>  <p style="font-size: 2em; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;"  >Card Informations</p>
+                </span>
+                
+               
+                      <label for="card-name" > Name on Card </label>
+                      <input type="text" name="card-name" id="card-name" placeholder="card-name"><br><br>
+                    
+                      <label for="ccn">Credit Card Number:</label>
+                     <input id="ccn" type="tel" inputmode="numeric" pattern="[0-9\s]{13,19}" autocomplete="cc-number" maxlength="19" placeholder="xxxx xxxx xxxx xxxx"><br><br>
+                      
+                     <div class="cvv-input">
+                     <select name='expireMM' id='expireMM'>
+                        <option value=''>Month</option>
+                        <option value='01'>January</option>
+                        <option value='02'>February</option>
+                        <option value='03'>March</option>
+                        <option value='04'>April</option>
+                        <option value='05'>May</option>
+                        <option value='06'>June</option>
+                        <option value='07'>July</option>
+                        <option value='08'>August</option>
+                        <option value='09'>September</option>
+                        <option value='10'>October</option>
+                        <option value='11'>November</option>
+                        <option value='12'>December</option>
+                    </select> 
+                    
+                    <select name='expireYY' id='expireYY'>
+                        <option value=''>Year</option>
+                        <option value='20'>2020</option>
+                        <option value='21'>2021</option>
+                        <option value='22'>2022</option>
+                        <option value='23'>2023</option>
+                        <option value='24'>2024</option>
+                    </select> 
+                   
+                        <input type="text" maxlength="3"  placeholder="CVV">
+                      </div>
+                    <input class="inputCard" type="hidden" name="expiry" id="expiry" maxlength="4"/>
+                    
+
+
+
+
+               <br><br><button  class="button-rt clbtn2" >CANCEL</button>
+                      <button  class="button-crt btn2">SUBMIT</button>
+                     
+                  
+          
+                 
+                
+            </div>
+
+            <p class="txt" style="color: aliceblue;"></p>
+
+            
+        </div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="index.js"></script>
+    
+</body>
+</html>

@@ -1,0 +1,152 @@
+.container{
+    height: 75vh;
+    width: 80vw;
+    position: relative;
+  
+    margin: auto;
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+  box-shadow: 2px 2px 4px gray, -2px -2px 2px gray;
+  margin: auto;
+  margin-top: 5vh;
+}
+
+
+
+.image{
+  
+    background-image: url('./photo1.jpg');
+  
+    background-repeat: no-repeat;
+   
+  background-position: center;
+    
+
+   height: 100%;
+   width: 40%;
+  
+   background-size: contain;
+   
+   
+    
+    box-shadow:2px 2px 4px lightgray ;
+   
+
+  
+}
+
+
+.form-container{
+  
+   position: relative;
+    background-color: rgb(243, 235, 235);
+    height: 100%;
+    width: 60%;
+    overflow: scroll;
+   
+    box-shadow: 2px 2px 4px gray;
+    text-align: center;
+    font-family: cursive;
+    float: right;
+    background-color: rgb(38, 41, 40);
+    
+   
+   
+    
+}
+
+#Billing-form{
+    
+    background-color: white;
+   
+    
+}
+
+#card-form{
+   
+  display: none;
+    background-color:white;
+   
+    
+}
+
+
+
+
+.product-form{
+   
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-items: center;
+    justify-content: center;
+   letter-spacing: 1px;
+   gap: 30px;
+  
+
+}
+
+
+.button-crt{
+    border: 0px;
+    letter-spacing: 1px;
+    background-color: #ff219f;
+
+    width: 125px;
+    height: 35px;
+    border-radius: 5px;
+    cursor:pointer;
+    font-size: 15px;
+   color: white;
+    box-shadow:2px 2px 4px lightgray ;
+
+    animation: transform 1s;
+    margin-bottom: 5px;
+    outline: 0;
+}
+
+.button-crt:hover{
+    background-color: #8f024f;
+}
+.button-crt:active{
+    transform: scale(1.05,1.05);
+}
+.button-rt{
+    border: 0px;
+    letter-spacing: 1px;
+    background-color: #22151c;
+
+    width: 125px;
+    height: 35px;
+    border-radius: 5px;
+    cursor:pointer;
+    font-size: 15px;
+   color: white;
+    box-shadow:2px 2px 4px lightgray ;
+
+    animation: transform 1s;
+
+    outline: 0;
+    margin-bottom: 5px;
+}
+
+.button-:hover{
+    background-color: #22151c;
+}
+.button-rt:active{
+    transform: scale(1.05,1.05);
+}
+
+
+a{
+    text-decoration: none;
+    color: wheat;
+    
+}
+
+
+@media screen {
+    
+}
